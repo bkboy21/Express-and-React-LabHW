@@ -1,21 +1,95 @@
 function Footer(props) {
     return (
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
+<footer class="footer">
+  <div class="footer__addr">
+    <h1 class="footer__logo">Something</h1>
+        
+    <h2>Contact</h2>
+    
+    <address>
+      5534 Somewhere In. The World 22193-10212
+          
+      <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+    </address>
+  </div>
+  
+  <ul class="footer__nav">
+    <li class="nav__item">
+      <h2 class="nav__title">Media</h2>
 
-    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"></svg>
-    </a>
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Online</a>
+        </li>
 
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-    </ul>
-  </footer>
+        <li>
+          <a href="#">Print</a>
+        </li>
+            
+        <li>
+          <a href="#">Alternative Ads</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item nav__item--extra">
+      <h2 class="nav__title">Technology</h2>
+      
+      <ul class="nav__ul nav__ul--extra">
+        <li>
+          <a href="#">Hardware Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Software Design</a>
+        </li>
+        
+        <li>
+          <a href="#">Digital Signage</a>
+        </li>
+        
+        <li>
+          <a href="#">Automation</a>
+        </li>
+        
+        <li>
+          <a href="#">Artificial Intelligence</a>
+        </li>
+        
+        <li>
+          <a href="#">IoT</a>
+        </li>
+      </ul>
+    </li>
+    
+    <li class="nav__item">
+      <h2 class="nav__title">Legal</h2>
+      
+      <ul class="nav__ul">
+        <li>
+          <a href="#">Privacy Policy</a>
+        </li>
+        
+        <li>
+          <a href="#">Terms of Use</a>
+        </li>
+        
+        <li>
+          <a href="#">Sitemap</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  
+  <div class="legal">
+    <p>&copy; 2019 Something. All rights reserved.</p>
+    
+    <div class="legal__links">
+      <span>Made with <span class="heart">♥</span> remotely from Anywhere</span>
+    </div>
+  </div>
+</footer>
     )
 
 
